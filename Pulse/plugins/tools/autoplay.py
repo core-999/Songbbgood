@@ -12,9 +12,9 @@ async def autoplay_cmd(client, message: Message):
     new_state = not is_autoplay_on(chat_id)
     set_autoplay(chat_id, new_state)
     if new_state:
-        await message.reply_text("<blockquote><emoji id='5397733426654626788'>✨</emoji> <b>𝐀ᴜᴛᴏᴘʟᴀʏ ιs ηᴏᴡ 𝐎𝐍</b></blockquote>")
+        await message.reply_text("<blockquote><b>𝐀ᴜᴛᴏᴘʟᴀʏ ιs ηᴏᴡ 𝐎𝐍</b></blockquote>")
     else:
-        await message.reply_text("<blockquote><emoji id='6152069270269334526'>💔</emoji> <b>𝐀ᴜᴛᴏᴘʟᴀʏ ιs ηᴏᴡ 𝐎𝐅𝐅</b></blockquote>")
+        await message.reply_text("<blockquote><b>𝐀ᴜᴛᴏᴘʟᴀʏ ιs ηᴏᴡ 𝐎𝐅𝐅</b></blockquote>")
 
 @app.on_callback_query(filters.regex(r"^Autoplay_Toggle\|(.+)"))
 async def autoplay_cb(client, CallbackQuery):
