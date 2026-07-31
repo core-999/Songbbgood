@@ -79,12 +79,12 @@ async def init():
         pass
     await Sagar.decorators()
     LOGGER("Pulse").info(
-        "Pulse Music Bot Started Successfully!"
+        " Music Bot Started Successfully!"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("Pulse").info("Stopping Pulse Music Bot...")
+    LOGGER("Pulse").info("Stopping Music Bot...")
 
 
 if __name__ == "__main__":
