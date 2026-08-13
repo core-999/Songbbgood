@@ -89,7 +89,7 @@ CLEANMODE_DELETE_MINS = int(
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 21474836480))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 21474836480))
 
-BASE_URL = getenv("BASE_URL", "https://babyapi.pro")
+API_URL = getenv("API_URL", None)
 API_KEY = getenv("API_KEY", None)
 # Get your pyrogram v2 session from @Shsusu_bot on Telegram
 STRING1 = getenv("STRING_SESSION", "BQD7IGgARZlAB1lCIrHI1TFZlaT1oQafB_ADnYhMLFcT3N5-utYkkPHx8BZHxege07D0DRHke2f-0PDPlKWeV6Us4AIi7hF2rtuU7yiEC_I5sHdqeN958ug4XF_9pHCwUqmke12c5csZa6MCIJ8ooGCg8Ndo5ABvtvxDAOVMyFOayk47iaJoYzBN5JQpmozzd_euToUIuWzpTmt7pjJ-6XB04u4RTE_MY6Ox3ey9jqwUKwRIJAdgb_4QRXWDyqYOSGjrWr1putbJC4yVx99En0EUcesfHmMzo-wFWg9oqhU382AqmDbBIPxpl2KbWsbiTqIWLiGhKgFu0_Xi59nb-7N3Ij_qowAAAAHFA_aoAA")
